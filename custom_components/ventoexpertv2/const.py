@@ -1,0 +1,6 @@
+DOMAIN = "ventoexpertv2"
+CONF_HOST = "host"
+CONF_PORT = "port"
+CONF_DEVICE_ID = "device_id"
+CONF_PASSWORD = "password"
+CONF_UPDATE_INTERVAL = "update_interval"

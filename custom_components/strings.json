@@ -1,0 +1,14 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "host": "Host"
+                },
+                "data_description": {
+                    "host": "The hostname or IP address of the MyIntegration device."
+                }
+            }
+        }
+    }
+}
