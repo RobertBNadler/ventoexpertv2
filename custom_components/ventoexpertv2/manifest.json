@@ -1,6 +1,6 @@
 {
   "domain": "ventoexpertv2",
-  "name": "VentoExpertV2 Integration",
+  "name": "Vento Expert V2",
   "version": "1.0.0",
   "requirements": [],
   "codeowners": [
@@ -8,6 +8,9 @@
   ],
   "config_flow": true,
   "iot_class": "local_polling",
+  "branding": {
+    "logo": "icons/logo.png"
+  },
   "lovelace": {
     "mode": "yaml",
     "resources": [

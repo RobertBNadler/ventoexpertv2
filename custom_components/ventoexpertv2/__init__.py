@@ -51,8 +51,8 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     hass.data.setdefault(DOMAIN, {})
     hass.data[DOMAIN][entry.entry_id] = entry.data
 
-    # Sensor-Platform laden
-    await hass.config_entries.async_forward_entry_setup(entry, "sensor")
+    # Sensor-Platform laden (neue API)
+    await hass.config_entries.async_forward_entry_setups(entry, ["sensor"])
 
     # Automatisch Lovelace-View hinzufügen (nur wenn Service verfügbar)
     if hass.services.has_service("lovelace", "update_config"):
